@@ -4,7 +4,7 @@ result = []
 headsCounter = 0
 tailsCounter = 0
 for experimentNumber in range(10000):
-    # Code that creates a list of 100 'heads' or 'tails' values.
+    # Code that creates a list of 10000 'heads' or 'tails' values.
     headsOrTails = random.randint(0, 1)
     result.append(headsOrTails)
     if headsOrTails == 0:
