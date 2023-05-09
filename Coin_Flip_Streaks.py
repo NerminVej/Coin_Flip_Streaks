@@ -17,6 +17,5 @@ for experimentNumber in range(10000):
         headsCounter = 0
         if tailsCounter == 6:
             numberOfStreaks += 1
-    # I can make a checker variable for both
     # Code that checks if there is a streak of 6 heads or tails in a row.
 print('Chance of streak: %s%%' % (numberOfStreaks / 100))
